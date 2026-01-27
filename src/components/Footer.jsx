@@ -9,19 +9,19 @@ const Footer = () => {
                     <a
                         href='https://github.com/Hardik0602'
                         target='_blank'
-                        className='hover:text-blue-400 transition-colors hover:-translate-y-1'>
+                        className='hover:text-blue-400 transition hover:-translate-y-1'>
                         <FaGithub />
                     </a>
                     <a
                         href='https://www.linkedin.com/in/pathak-hardik'
                         target='_blank'
-                        className='hover:text-blue-400 transition-colors hover:-translate-y-1'>
+                        className='hover:text-blue-400 transition hover:-translate-y-1'>
                         <FaLinkedin />
                     </a>
                     <a
                         href='https://leetcode.com/u/Hardik_Pathak_/'
                         target='_blank'
-                        className='hover:text-blue-400 transition-colors hover:-translate-y-1'>
+                        className='hover:text-blue-400 transition hover:-translate-y-1'>
                         <SiLeetcode />
                     </a>
                 </div>
