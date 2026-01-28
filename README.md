@@ -16,3 +16,6 @@ VITE_PUBLIC_KEY=your_public_key
 
 Get these values from:
 https://www.emailjs.com/
+
+## Bug with GitHub Pages
+https://github.com/orgs/community/discussions/23647
