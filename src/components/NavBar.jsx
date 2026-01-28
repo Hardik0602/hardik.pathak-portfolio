@@ -9,7 +9,7 @@ const NavBar = ({ menuOpen, setMenuOpen }) => {
                 <div className='flex justify-between items-center h-16'>
                     <a
                         className='font-mono text-xl font-bold text-white'
-                        href="#home">
+                        href="#links">
                         hardik<span className='text-blue-500'>.pathak</span>
                     </a>
                     <div

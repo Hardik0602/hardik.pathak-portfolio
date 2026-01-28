@@ -13,7 +13,7 @@ const About = () => {
         <div className='max-w-3xl mx-auto px-4'>
           <h2 className='text-3xl font-bold mb-8 bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center'>About Me</h2>
           <div className='rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all'>
-            <p className='text-gray-300 mb-6'>
+            <p className='text-gray-300 mb-6 text-center'>
               Passionate developer with expertise in building scalable web
               and mobile applications, and creating innovative solutions.
             </p>

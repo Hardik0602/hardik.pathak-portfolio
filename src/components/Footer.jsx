@@ -3,9 +3,11 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { SiLeetcode } from 'react-icons/si'
 const Footer = () => {
     return (
-        <footer className='w-full border-t border-white/10 bg-[rgba(10,10,10,0.8)]'>
+        <footer
+            id='links'
+            className='w-full border-t border-white/10 bg-[rgba(10,10,10,0.8)]'>
             <div className='max-w-5xl mx-auto py-8'>
-                <div className='flex justify-evenly text-2xl text-white'>
+                <div className='flex items-center justify-center gap-10 sm:gap-20 text-3xl sm:text-2xl text-white'>
                     <a
                         href='https://github.com/Hardik0602'
                         target='_blank'

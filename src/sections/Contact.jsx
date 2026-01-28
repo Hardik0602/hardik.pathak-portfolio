@@ -33,8 +33,8 @@ const Contact = () => {
       id='contact'
       className='min-h-screen flex items-center justify-center py-20'>
       <RevealOnScroll>
-        <div className='px-4 w-150'>
-          <h2 className='text-5xl mg:text-7zl font-black mb-6 bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right text-center'>Get in Touch</h2>
+        <div className='px-4 w-full sm:w-xl md:w-2xl'>
+          <h2 className='text-3xl sm:text-5xl font-black mb-6 bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right text-center'>Get in Touch</h2>
           <form
             onSubmit={handleSubmit}
             className='space-y-6'>
