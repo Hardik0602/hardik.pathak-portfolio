@@ -54,7 +54,8 @@ const About = () => {
             <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all'>
               <h3 className='text-xl font-bold mb-4 text-center'>Work Experience</h3>
               <div className='space-y-4 text-gray-300'>
-                <Work title='Intern at Centre for Health Innovations, MRIIRS (June 2025 - July 2025)' description='Contributed to the development of DawaSathi, a React Native based mobile app designed to assist elderly users in managing daily medications.' />
+                <Work title='Intern at SISL Infotech (January 2026 - Present)' description='' />
+                <Work title='Intern at Centre for Health Innovations, MRIIRS (June - July 2025)' description='Contributed to the development of DawaSathi, a React Native based mobile app designed to assist elderly users in managing daily medications' />
               </div>
             </div>
           </div>
