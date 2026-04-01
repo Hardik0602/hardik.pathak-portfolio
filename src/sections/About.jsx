@@ -4,7 +4,7 @@ import Work from '../components/Work'
 import RevealOnScroll from '../components/RevealOnScroll'
 const About = () => {
   const coreTechnologies = ['Java', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'MySQL']
-  const frameworksAndTools = ['React.js', 'React Native', 'Next.js', 'Tailwind CSS', 'Git & GitHub', 'Cursor', 'OpenCode', 'Vercel']
+  const frameworksAndTools = ['React.js', 'React Native', 'Tailwind CSS', 'Git', 'Cursor', 'OpenCode', 'Vercel']
   return (
     <section
       id='about'
@@ -58,7 +58,7 @@ const About = () => {
                 <h3 className='text-xl font-bold mb-4 text-center'>Work Experience</h3>
                 <div className='space-y-4 text-gray-300'>
                   <Work title='Intern at SISL Infotech (January 2026 - Present)' description='' />
-                  <Work title='Intern at Centre for Health Innovations, MRIIRS (June - July 2025)' description='Contributed to the development of DawaSathi, a React Native based mobile app designed to assist elderly users in managing daily medications' />
+                  <Work title='Intern at Manav Rachna International Institute of Research & Studies (June - July 2025)' description='Contributed to a React Native–based healthcare app for elderly medication management at the Centre for Health Innovations (CHI).' />
                 </div>
               </div>
             </div>
