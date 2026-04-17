@@ -4,7 +4,7 @@ import Work from '../components/Work'
 import RevealOnScroll from '../components/RevealOnScroll'
 const About = () => {
   const coreTechnologies = ['Java', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'MySQL']
-  const frameworksAndTools = ['React.js', 'React Native', 'Tailwind CSS', 'Git', 'Cursor', 'OpenCode', 'Vercel']
+  const frameworksAndTools = ['React.js', 'React Native', 'Tailwind CSS', 'Canva', 'Git', 'Vercel']
   return (
     <section
       id='about'
@@ -49,7 +49,9 @@ const About = () => {
               <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all'>
                 <h3 className='text-xl font-bold mb-4 text-center'>Education</h3>
                 <div className='space-y-8 text-gray-300'>
-                  <Education degree='B.Tech in Computer Science - Manav Rachna University (2022-2026)' coursework='Relevant Coursework: Data Structures, Software Engineering, Database Management' />
+                  <Education degree='B.Tech in Computer Science - Manav Rachna University (2022-2026)' coursework='Relevant Coursework: Data Structures and Algorithms, Object-Oriented Programming, Database Management, Software Engineering' />
+                  <Education degree='Senior Secondary (12th Std) - Ramagya School, Noida (2022)' />
+                  <Education degree='Secondary (10th Std) - Ramagya School, Noida (2020)' />
                 </div>
               </div>
             </div>
@@ -57,8 +59,8 @@ const About = () => {
               <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all'>
                 <h3 className='text-xl font-bold mb-4 text-center'>Work Experience</h3>
                 <div className='space-y-4 text-gray-300'>
-                  <Work title='Intern at SISL Infotech (January 2026 - Present)' description='' />
-                  <Work title='Intern at Manav Rachna International Institute of Research & Studies (June - July 2025)' description='Contributed to a React Native–based healthcare app for elderly medication management at the Centre for Health Innovations (CHI).' />
+                  <Work title='Intern at SISL Infotech (January - April 2026)' description='Designed IT infrastructure solutions across multiple client environments, with hands-on involvement in system architecture, technology stack evaluation, and requirements analysis.' />
+                  <Work title='Intern at Manav Rachna International Institute of Research & Studies (June - July 2025)' description='Contributed to a React Native-based healthcare app for elderly medication management at the Centre for Health Innovations (CHI).' />
                 </div>
               </div>
             </div>
